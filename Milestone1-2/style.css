@@ -1,0 +1,85 @@
+/* GENERAL STYLING */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fbe4ec; /* Light pink */
+    margin: 0;
+    padding: 150px;
+}
+
+.resume-container {
+    display: flex;
+    background-color: #f8c9e0; /* Soft pink */
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* LEFT SECTION STYLING */
+.left-section {
+    background-color: #f9a5c0; /* Soft coral pink */
+    color: black;
+    padding: 20px;
+    width: 35%;
+    text-align: center;
+    border-right: 5px solid #e77f9f; /* Light rose pink */
+}
+
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    margin-top: 10%;
+    border-radius: 50%;
+    border: 5px solid #e77f9f; /* Light rose pink */
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin: 10px 0;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #ff6f61; /* Coral */
+}
+
+h3 {
+    font-size: 18px;
+    padding: 2%;
+    margin: 20px 0 10px;
+    color: black;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #e77f9f; /* Light rose pink */
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+ul {
+    list-style-type: disc;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+/* RIGHT SECTION STYLING */
+.right-section {
+    padding: 20px;
+    width: 65%;
+}
+
+button {
+    font-family: Arial, sans-serif;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #e77f9f; /* Light rose pink */
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 18px;
+    background-color: #f7c1d6; /* Light pink */
+    color: white;
+}
+
+button:hover {
+    background-color: #ff6f61; /* Coral */
+}
